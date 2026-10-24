@@ -1,0 +1,10 @@
+{
+  "model": "XGBoost",
+  "mean_accuracy": 1.0,
+  "mean_f1": 1.0,
+  "labels": [
+    "BlockAccess",
+    "ContentEavesdrop",
+    "ManipulateUI"
+  ]
+}

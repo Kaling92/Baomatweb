@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">A11y Observer Lab</string>
+    <string name="service_name">Lab-only UI observer</string>
+    <string name="service_description">Observes structural metadata in this lab app only. Does not read or store displayed text or perform UI actions.</string>
+</resources>

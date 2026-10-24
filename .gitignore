@@ -1,0 +1,45 @@
+# Python Virtual Environments
+.venv/
+.venv-replication/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# Android / Gradle Build Artifacts (in poc/)
+poc/.gradle/
+poc/build/
+poc/app/build/
+.gradle/
+build/
+
+# Large Tool Binaries / Archives (in tools/)
+tools/*.zip
+tools/*.exe
+tools/jadx-cli/
+tools/jadx/
+tools/apktool/*.jar
+tools/flowdroid/*.jar
+
+# OS / System Files
+.DS_Store
+Thumbs.db
+Desktop.ini

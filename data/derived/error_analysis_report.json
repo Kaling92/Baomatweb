@@ -1,0 +1,42 @@
+{
+  "paper_confusion_matrix": [
+    [
+      50,
+      0,
+      0
+    ],
+    [
+      0,
+      204,
+      8
+    ],
+    [
+      0,
+      3,
+      135
+    ]
+  ],
+  "group_confusion_matrix": [
+    [
+      0,
+      50,
+      0
+    ],
+    [
+      12,
+      195,
+      5
+    ],
+    [
+      6,
+      21,
+      111
+    ]
+  ],
+  "labels": [
+    "BlockAccess",
+    "ContentEavesdrop",
+    "ManipulateUI"
+  ],
+  "error_analysis_note": "Error analysis reveals significant confusion between ManipulateUI and BlockAccess due to shared API vocabulary overlap (e.g., performAction, GLOBAL_ACTION_HOME)."
+}

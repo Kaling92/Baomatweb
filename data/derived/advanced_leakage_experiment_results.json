@@ -1,0 +1,66 @@
+{
+  "paper_stratified_kfold": {
+    "cv_type": "StratifiedKFold (Paper / Row-level random Leakage)",
+    "accuracy": 0.9724999999999999,
+    "f1_score": 0.9726417840324325,
+    "precision": 0.9753257348428017,
+    "recall": 0.9724999999999999,
+    "confusion_matrix": [
+      [
+        50,
+        0,
+        0
+      ],
+      [
+        0,
+        204,
+        8
+      ],
+      [
+        0,
+        3,
+        135
+      ]
+    ],
+    "labels": [
+      "BlockAccess",
+      "ContentEavesdrop",
+      "ManipulateUI"
+    ]
+  },
+  "our_group_kfold": {
+    "cv_type": "GroupKFold (Family-aware / Correct + TF-IDF Isolated)",
+    "accuracy": 0.688,
+    "f1_score": 0.712040023955618,
+    "precision": 0.7598312244024696,
+    "recall": 0.688,
+    "confusion_matrix": [
+      [
+        0,
+        50,
+        0
+      ],
+      [
+        12,
+        195,
+        5
+      ],
+      [
+        6,
+        21,
+        111
+      ]
+    ],
+    "labels": [
+      "BlockAccess",
+      "ContentEavesdrop",
+      "ManipulateUI"
+    ]
+  },
+  "drop_accuracy_percentage": 28.449999999999996,
+  "data_diversity": {
+    "total_samples": 400,
+    "unique_packages": 400,
+    "unique_families": 8
+  }
+}
